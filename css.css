@@ -24,10 +24,18 @@ body{
     max-width: 800px;
     margin: auto;
     position: absolute;
-    left: 100px;
+    left: 150px;
 }
-main table, tr, td, th{
+main h1{
     text-align: center;
+    font-size: 75px;
+
+}
+main table, td{
+    text-align: center;
+    vertical-align: middle;
+    padding: 5PX;
+
 }
 div img{
     width: 60px;
@@ -38,4 +46,15 @@ div img{
 }
 table th, thead, td{
     color: black;
+    text-align: center;
+
+}
+thead{
+    background-color: rgb(203, 203, 243)
+}
+td{
+    background-color: #dcb8e4;
+}
+table{
+    border: 5px;
 }
