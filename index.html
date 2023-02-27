@@ -7,18 +7,24 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />    
     <link rel="stylesheet" href="./css.css">
     <title>TEAM GOLD</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     
 <header>
-    <div class="container">
-    <div class="logo texto">
-    <h1>RANKING JP ODONTO</h1></div>
-   <div class="logo imagem">
-    <img src="./img/logo.png" alt="">
-   </div>
-</div>
+    <h1>RANKING JP ODONTO</h1>
+    <span class="material-icons" onclick="clickmenu()">menu</span>
+  <menu id="itens">
+  <ul>
+    <li><a href="index.html">TEAM GOLD</a></li>
+
+    <li><a href="ranking de vendas.html">RANKING DE VENDAS</a></li>
+    
+    <li><a href="ranking dentistas.html">RANKING DOS DENTISTAS</a></li>
+  </ul>
+</menu>
 </header>
+
 <main>
     <table border="1" class="dataframe">
         <thead>
@@ -35,6 +41,7 @@
             <th>NENHUM RECLAME AQUI</th>
             <th>COMPARECIMENTO NAS AGENDAS</th>
             <th>ENGAJAMENTO DENTISTA X PACIENTE</th>
+            <th>TOTAL</th>
           </tr>
         </strong>
         <strong>
@@ -43,6 +50,7 @@
           <tr>
             <th>0</th>
             <td>SII</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -65,10 +73,12 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>2</th>
             <td>ITAPEVI</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -91,10 +101,12 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>4</th>
             <td>LAPA</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -117,10 +129,12 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>6</th>
             <td>SBC</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -143,10 +157,12 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>8</th>
             <td>NV IGUAÇU</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -169,10 +185,12 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>10</th>
             <td>PAULISTA</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -195,10 +213,12 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>12</th>
             <td>OSASCO</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -221,6 +241,7 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>14</th>
@@ -234,10 +255,13 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
+
           </tr>
           <tr>
             <th>15</th>
             <td>GUARULHOS</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -260,10 +284,12 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>17</th>
             <td>SI</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -286,10 +312,12 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>18</th>
             <td>DIADEMA</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -312,10 +340,12 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
           <tr>
             <th>20</th>
             <td>SUZANO</td>
+            <td>0</td>
             <td>0</td>
             <td>0</td>
             <td>0</td>
@@ -338,10 +368,20 @@
             <td>0</td>
             <td>0</td>
             <td>0</td>
+            <td>0</td>
           </tr>
         </tbody>
       </table>
     </strong>
 </main>
+<script>
+  function clickmenu() {
+if (itens.style.display == 'block') {
+  itens.style.display= 'none'
+} else{
+  itens.style.display = 'block'
+}
+  }
+</script>
 </body>
 </html>
